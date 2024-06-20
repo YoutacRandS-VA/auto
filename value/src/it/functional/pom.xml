@@ -32,7 +32,7 @@
   <version>HEAD-SNAPSHOT</version>
   <name>Auto-Value Functional Integration Test</name>
   <properties>
-    <kotlin.version>1.9.10</kotlin.version>
+    <kotlin.version>2.0.0</kotlin.version>
   </properties>
   <dependencies>
     <dependency>
@@ -167,7 +167,7 @@
           </compilerArgs>
           <showWarnings>true</showWarnings>
           <showDeprecation>true</showDeprecation>
-          <testExcludes combine.children="append" />
+          <testExcludes combine.children="append"/>
         </configuration>
       </plugin>
       <plugin>
@@ -232,7 +232,7 @@
               </compilerArgs>
               <showWarnings>true</showWarnings>
               <showDeprecation>true</showDeprecation>
-              <testExcludes combine.children="append" />
+              <testExcludes combine.children="append"/>
             </configuration>
           </plugin>
         </plugins>
